@@ -579,12 +579,15 @@ padding:40px;
     grid-template-columns: auto;
     text-align: center;
     align-items: center;
-    border: none;
+    
     .pic{
         margin-left: 30px;
         padding:40px;
         width: 100%;
         height: auto;
+    }
+    .courses{
+        border: none;
     }
 }
 .work{
@@ -623,9 +626,11 @@ padding:40px;
     width: auto;
 }
 .peoples{
+    border:5px solid green;
     display: flex;
     flex-direction: column;
     position:relative;
+    top:100px;
     
 
     .person{
@@ -634,10 +639,13 @@ padding:40px;
     }
 }
 .logos{
-    display:none;
+    border:5px solid red;
+    margin-top: 200px;
+    display: flex;
+    padding: 10px;
 }
 .query{
-    margin-top: 200px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -693,7 +701,4 @@ footer
 
     }
 }
-}
-body{
-    border:5px solid red; 
 }
