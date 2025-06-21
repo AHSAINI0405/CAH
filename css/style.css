@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    
 }
 header{
     background-image: url('../images/back.jpg');
@@ -534,4 +535,165 @@ footer{
     color:white;
     margin-top: 25px;
     font-family: "roboto";
+}
+@media (max-width: 768px) {
+  
+header{
+    width: 100%;
+}
+.container2{
+display:grid;
+grid-template-columns: auto;
+
+}
+.quality{
+    background-color: #140748;
+    color: white;
+    padding:500px 120px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+
+    
+}
+.slider{
+display:grid;
+grid-template-columns: auto auto;
+position: absolute;
+left:0px;
+top:20px;
+padding:40px;
+}
+.profile{
+    padding-top: 20px;
+    grid-template-columns: auto;
+    img{
+        width:100%;
+        height: auto;
+    }
+}
+.education{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    border: none;
+    .pic{
+        margin-left: 30px;
+        padding:40px;
+        width: 100%;
+        height: auto;
+    }
+}
+.work{
+    display:grid;
+    grid-template-columns: auto;
+    text-align: center;
+    .pic{
+         margin-left: 30px;
+        padding:40px;
+        width: 100%;
+        height: auto;
+    }
+    .experience{
+     border: none;   
+    }
+}
+
+.featureimg
+{   
+    display: grid;
+    grid-template-columns: auto auto;
+    img{
+        width:60vh;
+        height:60vh;
+    }}
+.technologies{
+    display: none;
+}
+.technology{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.meeting{
+    position: none;
+    height: auto;
+    width: auto;
+}
+.peoples{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    
+
+    .person{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.logos{
+    display:none;
+}
+.query{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: none;
+    width: 100vh;
+    .part1{
+        padding: 35px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width:60vh;
+        position: none;
+        /* position: relative; */
+    }
+    .part2 
+    {  
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto; 
+        width:70vh;
+        background-color: white;
+        padding:35px;
+        /* justify-content: center; */
+        position: relative;
+    }
+    .feedback{
+        /* display: flex;; */
+        margin: 0px;
+        position:absolute;
+        top:20px;
+        left:10px;
+        height:fit-content;
+        width: 90%;
+        /* margin-bottom: 200px; */
+    }
+}
+footer
+{
+    margin-top: 40px;
+    width: 100%;
+}
+.navigation
+{
+    display:flex;
+    .navbar{
+        display:grid;
+        grid-template-columns: auto auto
+    }
+}
+.icons{
+    display:flex;
+    i{
+        width:max-content;
+
+    }
+}
+}
+body{
+    border:5px solid red; 
 }
