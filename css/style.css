@@ -626,7 +626,7 @@ padding:40px;
     width: auto;
 }
 .peoples{
-    border:5px solid green;
+
     display: flex;
     flex-direction: column;
     position:relative;
@@ -639,8 +639,7 @@ padding:40px;
     }
 }
 .logos{
-    border:5px solid red;
-    margin-top: 200px;
+     margin-top: 200px;
     display: flex;
     padding: 10px;
 }
